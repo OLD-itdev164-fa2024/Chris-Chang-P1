@@ -1,0 +1,39 @@
+:root {
+    --turquoise: #00a88f; 
+    --purple: #2e2069;
+    --purpleGray: #877eab;
+    --orangeGray: #d98d6c;
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+    transition: 300ms color;
+}
+
+a:hover {
+    color:var(--turquoise);
+}
+
+.blogContainer {
+    background-color: var(--orangeGray);
+    padding: 2em;
+    border-radius: 1rem;
+}
+
+.blogImg {
+    align-items: center;
+    margin-top: 2em;
+    border-radius: 1rem;
+}
+
+.blogTitle {
+    text-align: center;
+}
+
+.iconFA {
+    width: 5%;
+    margin: 1em;
+    color: var(--turquoise)
+}
